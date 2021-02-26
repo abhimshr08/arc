@@ -1,0 +1,291 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+ 
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="free-educational-responsive-web-template-webEdu">
+
+  <meta name="author" content="webThemez.com">
+
+  <title>Ayurvedic Rejuvenation Center</title>
+
+  <link rel="favicon" href="assets/images/favicon.png">
+
+  <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+ 
+  <link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen">
+ 
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <link rel="stylesheet" href="assets/css/animate.css">
+
+  <link rel='stylesheet' id='camera-css'  href='assets/css/camera.css' type='text/css' media='all'>
+ 
+  <link rel="stylesheet" type="text/css" media="all" href="assets/css/pro-bars.min.css">
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+  <!--[if lt IE 9]>
+  <script src="assets/js/html5shiv.js"></script>
+
+  <script src="assets/js/respond.min.js"></script>
+
+  <![endif]-->
+</head>
+
+<body>
+  <!-- Fixed navbar -->
+
+  <div>
+  <?php include('login_nav.php'); 
+	$con=mysql_connect('localhost','root','') or die("Failed to connect to MySQL: " . mysql_error());
+	$db=mysql_select_db('arc',$con) or die("Failed to connect to MySQL: " . mysql_error());
+	$sql = "SELECT * FROM prod";
+	$query = mysql_query($sql) or die(mysql_error());
+	
+  ?>
+  </div>
+  <div class="logo">
+ 
+   <a href="index.html"><img src="assets/images/Awsome-agency-logo5.png" width="300" align="center"></a>
+ 
+ </div>
+ 
+ <div class="navbar navbar-inverse">
+   
+ <div class="container">
+  
+    <div class="navbar-header">
+   
+     <!-- Button for smallest screens -->
+    
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+     
+   
+      </div>
+    
+  <div class="navbar-expand">
+     
+   <ul class="nav navbar-nav  mainNav">
+
+      <li><a href="login1.html">Login</a></li>
+
+    <li><a href="index.html">Home</a></li>
+    
+      <li class="active"><a href="about.html">About</a></li>
+
+<li><a href="booking.html">Booking</a></li>
+
+<li><a href="product.php">Products</a></li>
+       
+   <li><a href="testimonial.html">Testimonial</a></li>
+     
+     <li><a href="contact.html">Contact</a></li>
+     
+   </ul>
+      </div>
+      <!--/.nav-collapse -->
+   
+ </div>
+  </div>
+  <!-- /.navbar -->
+
+	<!-- Header -->
+	<header>
+
+		<section class="call-to-action text-center">
+   
+   <div class="text-all">
+   
+     <h2 class="title">Ayurvedic Rejuvenation Center</h2>
+   
+     </div>  
+  
+  </section> 
+ 
+ </header>
+
+	
+<!-- /Header -->
+
+  
+<section class="container about-content">
+ 
+   <h3 class="cta-text text-center">Why Do We Need Ayurvedic Rejuvenation ?</h3><br>
+  
+  <div class="col-lg-6 col-sm-12 col-md-6">
+   
+   <p class="lead">Stress </p>
+  
+    <div class="pro-bar-container color-nephritis">
+    
+    <div class="pro-bar bar-10 color-emerald" data-pro-bar-percent="10">
+   
+       <div class="pro-bar-candy candy-ltr"></div>
+        </div>
+      </div>
+  
+    <p class="lead">Food Quality </p>
+  
+    <div class="pro-bar-container color-nephritis">
+   
+     <div class="pro-bar bar-50 color-emerald" data-pro-bar-percent="50" data-pro-bar-delay="100">
+    
+      <div class="pro-bar-candy candy-ltr"></div>
+        </div>
+      </div>
+  
+    <p class="lead">Digestion </p>
+    
+  <div class="pro-bar-container color-nephritis">
+     
+   <div class="pro-bar bar-60 color-emerald" data-pro-bar-percent="60" data-pro-bar-delay="200">
+     
+     <div class="pro-bar-candy candy-ltr"></div>
+        </div>
+      </div>
+  
+    <p class="lead">Hypertension</p>
+      <div class="pro-bar-container color-nephritis">
+    
+    <div class="pro-bar bar-30 color-emerald" data-pro-bar-percent="30" data-pro-bar-delay="300">
+      
+    <div class="pro-bar-candy candy-ltr"></div>
+        </div>
+      </div>
+    
+  <p class="lead">Obesity </p>
+      <div class="pro-bar-container color-nephritis">
+     
+   <div class="pro-bar bar-40 color-emerald" data-pro-bar-percent="40" data-pro-bar-delay="400">
+   
+       <div class="pro-bar-candy candy-ltr"></div>
+        </div>
+      </div>
+    </div>
+ 
+   <div class="col-lg-6 col-sm-12 col-md-6">
+      <p class="about-text">
+     
+ We took a group of people dealing with the problems mentioned and give them a treatment at our ayurvedic center , they were treated their with different therapies and on a strict diet followed , After one week the group of people themselves told us they felt a difference and were feeling more relaxed and positive...  
+		We invite you all to experience the same!!!
+      </p>  
+    </div>
+ 
+ </section>
+
+  <section class="portfolio">
+   
+ <h3 class="cta-text text-center">Ayurveda</h3><hr>
+   
+  <div class="container">
+     <div class="item-section col-md-6">
+ <h4 class="item-title text-center">Guru Abhishek Mishra</h4>
+       
+    <p class="portfoio-text">Ayurveda teaches us to understand our body; our particular nature; and our individual mixture of elements at a deep physical, mental and emotional level. With that knowledge we are able to identify activities, conditions, herbs and foods that either keep us healthy and in balance, or make us ill and throw us out of balance.
+</p>
+     </div>
+    </div>
+ 
+ </section>
+
+ 
+ <section class="call-to-action text-center">
+  
+  <div class="text-all">
+    
+   </div>  
+  
+  </section>
+
+  <footer>
+  
+  <div class="footer-section ">
+    
+  <div class="container">
+    
+    <div class="social pull-left">
+    
+      <p><i class="fa fa-phone"></i>+919768025062 <i class="fa fa-envelope-o"></i>Support@abhishekmshr60@gmail.com</p>
+   
+     </div>
+     
+   <div class="navigation">
+   
+       <ul class="pull-right">
+
+       <li><a href="login1.html">Login</a></li>
+
+       <li><a href="index.html">Home</a></li>
+  
+            <li><a href="about.html">About</a></li>
+
+<li><a href="booking.html">Booking</a></li>
+
+<li><a href="product.php">Products</a></li>
+        
+      <li><a href="testimonial.html">Testimonial</a></li>
+        
+      <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div> 
+      </div>
+    </div>
+ 
+   <div class="footer-bottom">
+      <div class="container">
+     
+   <div class="social pull-left">
+   
+       <p>&copy; copyright your website link, 2016.</p>
+    
+    </div>
+     
+   <div class="navigation">
+     
+     <ul class="pull-right">
+      
+        <li><a href="https://www.facebook.com/AyurvedicRejuvenationCenter/?skip_nax_wizard=true"><i class="fa fa-2x fa-facebook"></i></a></li>
+     
+         <li><a href="https://twitter.com/AyurvedicRejuva"><i class="fa fa-2x fa-twitter"></i></a></li>
+         
+     <li><a href="https://in.pinterest.com/ayurvedicrejuve/"><i class="fa fa-2x fa-pinterest"></i></a></li>
+       
+     </ul>
+        </div> 
+      </div>
+    </div>     
+  </footer>
+
+	
+<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+  
+  <script src="assets/js/modernizr-latest.js"></script> 
+ 
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script> 
+ 
+   <script type='text/javascript' src='assets/js/jquery.mobile.customized.min.js'></script>
+   
+  <script src="assets/js/bootstrap.min.js"></script> 
+  
+  <script src="assets/js/appear.min.js" type="text/javascript"></script>
+  
+  <script src="assets/js/pro-bars.min.js" type="text/javascript"></script>
+  
+  <script src="assets/js/wow.min.js" type="text/javascript"></script>
+  
+  
+</body>
+</html>
